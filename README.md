@@ -15,7 +15,8 @@ To launch all the algorithm just run pipeline.py.
 
 Example:
 
-![](1.png) ![](2.png) ![](BCM_20171011_to_20180618_threshold_1_otsu_27.png)
+![Image1](example.png)
+
 
 Here is the architecture of our neural networks :
 
