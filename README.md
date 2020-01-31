@@ -13,6 +13,9 @@ Our algorithm is in two parts : pretraining.py and finetuning.py . Don't forget 
 
 To launch all the algorithm just run pipeline.py.
 
+Example:
+
+![](1.png) ![](2.png) ![](BCM_20171011_to_20180618_threshold_1_otsu_27.png)
 
 Here is the architecture of our neural networks :
 
