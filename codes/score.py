@@ -116,10 +116,17 @@ def score(path_original,path_true,path_to_score,path_store):
             break
     
 #     get imgs to score ordered by time
+    # os.chdir(path_to_score)
+    # files = filter(os.path.isfile, os.listdir(path_to_score))
+    # files = [os.path.join(path_to_score, f) for f in files] # add path to each file
+    # files.sort(key=lambda x: os.path.getmtime(x))
+
     os.chdir(path_to_score)
     files = filter(os.path.isfile, os.listdir(path_to_score))
     files = [os.path.join(path_to_score, f) for f in files] # add path to each file
-    files.sort(key=lambda x: os.path.getmtime(x))
+    files = natsort.natsorted(files,reverse=False)
+
+
     to_score = []
     for i in range(len(files)):
         to_score.append([mask_bouding_box(path_original)*normalize(cv2.imread(files[i],0)),(files)[i][-54:-34]])
