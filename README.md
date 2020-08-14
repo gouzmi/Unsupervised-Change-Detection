@@ -1,4 +1,8 @@
 # Unsupervised-Change-Detection
+
+Implementation of :
+https://www.researchgate.net/publication/342534299_Analyzing_Age-Related_Macular_Degeneration_Progression_in_Patients_with_Geographic_Atrophy_Using_Joint_Autoencoders_for_Unsupervised_Change_Detection
+
 Unsupervised Change Detection using Deep Learning Techniques for Age-Related Macular Degeneration Progression
 
 This repo shows a novel approach to unsupervised change detection.
